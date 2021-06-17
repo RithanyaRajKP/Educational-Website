@@ -1,0 +1,62 @@
+.example-card {
+    max-width: 1500px;
+    
+  }
+  
+  .stylee {
+    background-image: url("../../assets/images/conta.jpg");
+    background-repeat: no-repeat;
+    background-size: 1500px 900px;
+    height: 609px;
+    opacity: .5;
+  }
+  .paddingtop{
+    padding-top: 34px;
+  }
+  .paddingright{
+    padding-right: 39%;
+  }
+  .paddingleft{
+    padding-left: 30%;
+  }
+  .padding5050{
+    padding-left: 80px;
+    padding-bottom: 50px;
+  padding-top: 50px;
+  padding-right: 30px;
+  
+  }
+  .font145{
+    font-size: 145%;
+  }
+  .bggreen{
+    background-image: url("../../assets/images/mgg.jpg") ;
+    opacity: .9;
+    }
+    .height100width100{
+      height: 100%;
+      width: 100%;
+    }
+    .example-form {
+      min-width: 150px;
+      max-width: 500px;
+      width: 100%;
+    }
+    
+    .example-full-width {
+      width: 100%;
+    }
+    
+    td {
+      padding-right: 8px;
+    }
+    .example-form {
+      min-width: 150px;
+      max-width: 500px;
+      width: 100%;
+    }
+    
+    .example-full-width {
+      width: 100%;
+    }
+       

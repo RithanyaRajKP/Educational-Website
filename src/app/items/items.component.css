@@ -1,0 +1,82 @@
+mat-grid-tile {
+  background: white;
+}
+.marginall{
+  /* margin-top: 20px;
+  margin-bottom: 20px;*/
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.paddding{
+  padding-top: 20px;
+}
+.paddding2px{
+  padding-left: 1px;
+}
+.height100width100{
+  height: 80%;
+  width: 80%;
+}
+.floatleft{
+  float: left;
+}
+.floatright{
+  float: right;
+}
+.mixer{
+  width: 50%;
+  height: 100%;
+   text-align: center; 
+    color: black;
+    font-size: 15px;
+}
+.width50height100{
+  width: 100%;
+  height: 50%;
+  float: left;
+}
+.width100height50{
+  width: 100%;
+  height: 50%;
+
+ 
+}
+.button1{
+ 
+  margin-left: 12px;
+}
+/* .mobile{
+  width: 50%;
+  height: 100%;
+   text-align: center;
+    color: black;
+    font-size: 24px;
+}
+.ref{
+  width: 50%;
+  height: 100%;
+   text-align: center;
+    color: black;
+    font-size: 24px;
+} */
+/* .sofa{
+  width: 50%;
+  height: 100%;
+   text-align: center;
+    color: black;
+    font-size: 24px;
+}
+.tbl{
+  width: 50%;
+  height: 100%;
+   text-align: center;
+    color: black;
+    font-size: 24px;
+} */
+/* .tv{
+  width: 50%;
+  height: 100%;
+   text-align: center;
+    color: black;
+    font-size: 24px;
+} */

@@ -1,0 +1,63 @@
+<div style="width: 50%;height: 100%; float: left; ">
+  <mat-card  style="height: 100%;">
+  <mat-card-header >
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title>{{item.name}}</mat-card-title>
+  </mat-card-header>
+  <img class="mixerimg" src="{{item.src}}">
+  <mat-card-content>
+    <p>
+     <b> About:</b>
+      <br> {{item.desc}}
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <!-- <button class="buynow">Register</button>&nbsp; -->
+  
+    <button class="buynow"><a href="#" >Learn</a></button> &nbsp;
+    <mat-slide-toggle>Save</mat-slide-toggle>
+    <button  class="buynow" (click)="backClicked()">Back</button>
+  </mat-card-actions>
+</mat-card></div>
+
+
+<div style="width: 45%; height: 100%; float: right;margin-top: 16px;">
+  <div>
+  
+    <p style="font-size: 16px; ">Course Price: <s style="font-weight: 500;">{{item.oprice | currency:'INR'}}</s> </p>
+    <p style="font-weight: 500;font-size: 17px;">You Save: 10%
+      <br>
+      {{item.nprice | currency:'INR'}}</p>
+
+
+      <section class="example-section">
+        <label class="example-margin">Class:</label>
+        <mat-radio-group [(ngModel)]="labelPosition">
+          <mat-radio-button class="example-margin" >I std - V std</mat-radio-button>
+          <mat-radio-button class="example-margin" >VI std - X std</mat-radio-button>
+          <mat-radio-button class="example-margin" value="after">XI - XII std</mat-radio-button>
+
+        </mat-radio-group>
+      </section>
+      
+    <h3><b>Description</b></h3>
+  
+    <ul>
+     
+      <li *ngFor="let i of item.specific">
+       {{i}}
+      </li>
+
+    </ul>
+
+  </div>
+
+</div>
+  <!-- <h1>colors</h1>
+    <p>
+      <mat-button-toggle-group name="fontStyle" aria-label="Font Style">
+        <mat-button-toggle ><span class="dot{{item.colors}}"></span></mat-button-toggle>
+      </mat-button-toggle-group>
+    </p> -->
+    <br>
+    <!-- *ngFor='let color of colors' -->

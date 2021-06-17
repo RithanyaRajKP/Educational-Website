@@ -1,0 +1,58 @@
+.paddingbottom{
+  padding-bottom: 50%;
+}
+.paddingtop{
+  padding-top: 34px;
+}
+.paddingright{
+  padding-right: 39%;
+}
+.paddingleft{
+  padding-left: 30%;
+}
+.padding5050{
+  padding-left: 80px;
+  padding-bottom: 50px;
+padding-top: 50px;
+padding-right: 30px;
+
+}
+.font200{
+  font-size: 200%;
+}
+.font145{
+  font-size: 145%;
+}
+.font150{
+  font-size: 150%;
+}
+.bg1{
+
+  background-image: url("../../assets/images/log.jpg");
+  background-repeat: no-repeat;
+  background-size: 1500px 900px;
+  opacity: .5;
+
+}
+.height100width100{
+  height: 100%;
+  width: 100%;
+}
+.bggreen{
+background-image: url("../../assets/images/mgg.jpg") ;
+opacity: .9;
+}
+
+.button1{
+ 
+  margin-right: 32px;
+}
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}

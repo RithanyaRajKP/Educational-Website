@@ -1,0 +1,80 @@
+.dotgreen {
+  height: 25px;
+  width: 25px;
+  background-color: green;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dotred {
+  height: 25px;
+  width: 25px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dotyellow {
+  height: 25px;
+  width: 25px;
+  background-color: yellow;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dotblue {
+  height: 25px;
+  width: 25px;
+  background-color: blue;
+  border-radius: 50%;
+  display: inline-block;
+}
+.mixerimg{
+
+  height: 50%;
+}
+.buynow{
+  border-radius: 4px;
+  border: none;
+  font-size: 15px;
+  padding: 16px;
+background-color: rgb(255, 187, 51);
+}
+.cart{
+  border-radius: 4px;
+  border: none;
+}
+
+.bar-2 {width: 4%; height: 18px; background-color: #ff9800;}
+
+.side {
+  float: left;
+  width: 15%;
+  margin-top:10px;
+}
+.example-h2 {
+  margin: 10px;
+}
+
+.example-section {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+.example-margin {
+  margin: 0 10px;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
